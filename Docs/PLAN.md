@@ -6,19 +6,19 @@ L'équipe va réaliser une architecture ave un serveur http express, ce plan est
 
 - Charte Graphique : document qui définit et formalise toutes les règles d'utilisation des éléments visuels d'une entreprise ou d'une marque
 
-[ ] Chercher un nouveau logo
-    [ ] simple et moderne
-[ ] Chercher une nouvelle Font
-    [ ] voir si il existe une Font "café"
-    [ ] voir les fonts sur les autres sites
-    [ ] trouver une font moderne
-[ ] Chercher de nouvelles couleurs
-    [ ] voir les autres sites
-    [ ] voir les couleur en relation avec le café
-[ ] Recherche d'un Design
-    [ ] voir les sites de vendeur de café (Nespresso, Dolce Gusto)
-    [ ] trouver un design moderne mais simple
-    [ ] voir un design en relation avec l'univers du café
+[X] Chercher un nouveau logo
+    [X] simple et moderne
+[X] Chercher une nouvelle Font
+    [X] voir si il existe une Font "café"
+    [X] voir les fonts sur les autres sites
+    [X] trouver une font moderne
+[X] Chercher de nouvelles couleurs
+    [X] voir les autres sites
+    [X] voir les couleur en relation avec le café
+[X] Recherche d'un Design
+    [X] voir les sites de vendeur de café (Nespresso, Dolce Gusto)
+    [X] trouver un design moderne mais simple
+    [X] voir un design en relation avec l'univers du café
 
 ## Sprint 1 : Création d'une architecture pour une application
 
