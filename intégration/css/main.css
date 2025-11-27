@@ -1,0 +1,129 @@
+:root {
+    --color-fond: #F5E9D3;
+    --color-text: #4B2E1E;
+    --color-bouton: #C9A14A;
+    --color-bordure: #BFBFBF;
+}
+
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 40vh;
+    margin: 2rem 2rem 4rem 2rem;
+}
+.banner_img {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+.prez {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (5, 1fr);
+    height: 100vh;
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+}
+.container {
+    grid-column: 1 / 5;
+}
+img {
+    width: 15%;
+    padding-top: 2rem;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.container_text {
+    line-height: 1,4;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.savoir {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (5, 1fr);
+    height: 110vh;
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+}
+.brother {
+    grid-column: 1 / 5;
+}
+.brother_img {
+    width: 30%;
+    margin-top: 2rem;
+}
+.brother_text {
+    line-height: 1,4;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.plan {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (5, 1fr);
+    height: 65vh;
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.access{
+    grid-column: 1 / 5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.plan_title {
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 50vh;
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.footer_text {
+    grid-column: 2 / 4 ;
+    grid-row: 2 / 3;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+
+.social {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    display: flex;
+    justify-content: center;
+}
+.social ul {
+    display: flex;
+}
+.social ul li {
+    width: 50%;
+}
+
+
+
+
+
+
+

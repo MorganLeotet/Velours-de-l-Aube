@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Velours de l'Aube</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Velours de l'aube, nouvelle boutique de café haut de gamme des frères Pepper.">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+        <link rel="stylesheet" href="../intégration/css/reset.css" />
+        <link rel="stylesheet" href="../intégration/css/base.css"/>
+        <link rel="stylesheet" href="../intégration/css/nav.css"/>
+        <link rel="stylesheet" href="../intégration/css/catalogue.css"/>
+        <link rel="stylesheet" href="../intégration/css/product.css"/>
+
+        <script defer src="../intégration/js/product.js"></script>
+
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="title">Velours de l'Aube</label>
+            <ul>
+                <li>
+                <a href="#" aria-label="Catalogue">Catalogue</a>
+                </li>
+                <li>
+                <a href="#" aria-label="Boutique">Boutique</a>
+                </li>
+                <li>
+                <a href="#" aria-label="Se Connecter">Se Connecter</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="catalog">
+                <h1>Nos Cafés</h1>
+                    <div class="articles only-display-3-articles" id="articles-list">
+                        <article>
+                            <a href="#" class="open-product" data-product="espresso"><img
+                            src="../public/cafés/Espresso.png"
+                            alt="Espresso"
+                            /></a>
+                            <div class="text">
+                                <h2>Espresso</h2>
+                                <p>Origine Italie</p>
+                            </div>
+                            <div class="price">
+                                <p>20,99 €/kg</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <a href="#" class="open-product" data-product="columbian"><img
+                            src="../public/cafés/Columbian.png"
+                            alt="Columbian"
+                            /></a>
+                            <div class="text">
+                                <h2>Columbian</h2>
+                                <p>Origine Colombie</p>
+                            </div>
+                            <div class="price">
+                                <p>18,75 €/kg</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <a href="#" class="open-product" data-product="ethiopian"><img
+                            src="../public/cafés/Ethiopian.png"
+                            alt="Ethiopian Yirgacheffe"
+                            /></a>
+                            <div class="text">
+                                <h2>Ethiopian Yirgacheffe</h2>
+                                <p>Origine Ethiopie</p>
+                            </div>
+                            <div class="price">
+                                <p>22,50 €/kg</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Overlay -->
+                    <div class="panel-overlay" id="panel-overlay" aria-hidden="true"></div>
+                    <!-- fiche produit-->
+                    <aside class="product-panel" id="product-espresso" role="dialog" aria-label="Fiche produit Espresso" aria-hidden="true">
+                        <button class="close-panel" aria-label="Fermer la fiche">×</button>
+                        <h2>Espresso</h2>
+                        <p><strong>Origine :</strong> Italie</p>
+                        <p>Un café intense, corsé, parfait pour un expresso serré.</p>
+                        <p><strong>Prix :</strong> 20,99 €/kg</p>
+                        <hr>
+                        <p>Notes de dégustation : caramel, chocolat noir, finale longue.</p>
+                    </aside>
+
+                    <aside class="product-panel" id="product-columbian" role="dialog" aria-label="Fiche produit Columbian" aria-hidden="true">
+                        <button class="close-panel" aria-label="Fermer la fiche">×</button>
+                        <h2>Columbian</h2>
+                        <p><strong>Origine :</strong> Colombie</p>
+                        <p>Un café riche et floral, idéal en filtre.</p>
+                        <p><strong>Prix :</strong> 18,50 €/kg</p>
+                        <hr>
+                        <p>Notes : agrumes, fleurs, texture soyeuse.</p>
+                    </aside>
+                    <aside class="product-panel" id="product-ethiopian" role="dialog" aria-label="Fiche produit Ethiopian" aria-hidden="true">
+                        <button class="close-panel" aria-label="Fermer la fiche">×</button>
+                        <h2>Ethiopian</h2>
+                        <p><strong>Origine :</strong> Ethiopie</p>
+                        <p>Réputé pour son arôme floral, son acidité vive et ses notes de saveur citronnée.</p>
+                        <p><strong>Prix :</strong> 22,50 €/kg</p>
+                        <hr>
+                        <p>Notes : Doux et Fruité.</p>
+                    </aside>
+            </section>
+
+        </main>
+        <footer>
+            <section class="footer_text">
+                <p>O'Clock & Pepper Brothers - Tous droits réservés</p>
+            </section>
+        </footer>
+    </body>
+</html>
