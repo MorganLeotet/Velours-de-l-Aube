@@ -1,49 +1,58 @@
-/* ======== Fiche Produit ========= */
- /* Overlay sombre */
-.panel-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.45);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.28s ease, visibility 0s linear 0.28s;
-    z-index: 2000;
-}
-.panel-overlay.active { opacity: 1; visibility: visible; transition-delay: 0s; }
-
-    /* Panneau de droite */
-.product-panel {
-    position: fixed;
-    top: 0;
-    right: -420px; /* hors écran */
-    width: 400px;
-    max-width: 90%;
-    height: 100%;
-    background: #fff;
-    box-shadow: -6px 0 30px rgba(0,0,0,0.25);
-    padding: 22px;
-    transition: right 0.32s cubic-bezier(.2,.9,.2,1);
-    z-index: 3000;
-    overflow-y: auto;
-    border-left: 1px solid #eee;
-}
-.product-panel.active { right: 0; }
-
-    /* Close button */
-.product-panel .close-panel {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: none;
-    border: none;
-    font-size: 26px;
-    line-height: 1;
-    cursor: pointer;
-    padding: 6px;
+:root {
+    --color-fond: #F5E9D3;
+    --color-text: #4B2E1E;
+    --color-bouton: #C9A14A;
+    --color-bordure: #BFBFBF;
 }
 
-    /* Small responsive tweak */
-@media (max-width:600px){
-    .product-panel { width: 100%; right: -100%; }
-    .product-panel.active { right: 0; }
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 70vh;
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.img {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    background: palevioletred;
+    margin: 1rem 2rem 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.product_img {
+    width: 110%;
+    height: 105%;
+    border-radius: 20px;
+}
+.description {
+    grid-column: 2 / 4;
+    grid-row: 2 / -1;
+    background: var(--color-text);
+    margin: 1rem 2rem 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: var(--color-bouton);
+}
+#title {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.resume {
+    margin-top: 2rem;
+}
+.note {
+    margin-top: 3rem;
+}
+.price {
+    margin-top: 5rem;
+    font-weight: bold;
 }

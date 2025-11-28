@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="../intégration/css/base.css"/>
         <link rel="stylesheet" href="../intégration/css/nav.css"/>
         <link rel="stylesheet" href="../intégration/css/catalogue.css"/>
-        <link rel="stylesheet" href="../intégration/css/product.css"/>
+        <link rel="stylesheet" href="../intégration/css/slider.css"/>
 
         <script defer src="../intégration/js/product.js"></script>
 
@@ -24,7 +24,7 @@
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
             </label>
-            <label class="title">Velours de l'Aube</label>
+            <label class="title"><a href="./home.html">Velours de l'Aube</a> </label>
             <ul>
                 <li>
                 <a href="#" aria-label="Catalogue">Catalogue</a>
@@ -50,9 +50,7 @@
                                 <h2>Espresso</h2>
                                 <p>Origine Italie</p>
                             </div>
-                            <div class="price">
-                                <p>20,99 €/kg</p>
-                            </div>
+                            <button class="btn">Ajouter au Panier</button>
                         </article>
 
                         <article>
@@ -64,9 +62,7 @@
                                 <h2>Columbian</h2>
                                 <p>Origine Colombie</p>
                             </div>
-                            <div class="price">
-                                <p>18,75 €/kg</p>
-                            </div>
+                            <button class="btn">Ajouter au Panier</button>
                         </article>
 
                         <article>
@@ -78,9 +74,7 @@
                                 <h2>Ethiopian Yirgacheffe</h2>
                                 <p>Origine Ethiopie</p>
                             </div>
-                            <div class="price">
-                                <p>22,50 €/kg</p>
-                            </div>
+                            <button class="btn">Ajouter au Panier</button>
                         </article>
                     </div>
 
@@ -89,31 +83,37 @@
                     <!-- fiche produit-->
                     <aside class="product-panel" id="product-espresso" role="dialog" aria-label="Fiche produit Espresso" aria-hidden="true">
                         <button class="close-panel" aria-label="Fermer la fiche">×</button>
-                        <h2>Espresso</h2>
+                        <img src="../public/cafés/Espresso.png">
+                        <h2 class="product_title">Espresso</h2>
                         <p><strong>Origine :</strong> Italie</p>
                         <p>Un café intense, corsé, parfait pour un expresso serré.</p>
                         <p><strong>Prix :</strong> 20,99 €/kg</p>
                         <hr>
                         <p>Notes de dégustation : caramel, chocolat noir, finale longue.</p>
+                        <button class="product_btn">Ajouter au Panier</button>
                     </aside>
 
                     <aside class="product-panel" id="product-columbian" role="dialog" aria-label="Fiche produit Columbian" aria-hidden="true">
                         <button class="close-panel" aria-label="Fermer la fiche">×</button>
-                        <h2>Columbian</h2>
+                        <img src="../public/cafés/Columbian.png">
+                        <h2 class="product_title">Columbian</h2>
                         <p><strong>Origine :</strong> Colombie</p>
                         <p>Un café riche et floral, idéal en filtre.</p>
                         <p><strong>Prix :</strong> 18,50 €/kg</p>
                         <hr>
                         <p>Notes : agrumes, fleurs, texture soyeuse.</p>
+                        <button class="product_btn">Ajouter au Panier</button>
                     </aside>
                     <aside class="product-panel" id="product-ethiopian" role="dialog" aria-label="Fiche produit Ethiopian" aria-hidden="true">
                         <button class="close-panel" aria-label="Fermer la fiche">×</button>
-                        <h2>Ethiopian</h2>
+                        <img src="../public/cafés/Ethiopian.png">
+                        <h2 class="product_title">Ethiopian</h2>
                         <p><strong>Origine :</strong> Ethiopie</p>
                         <p>Réputé pour son arôme floral, son acidité vive et ses notes de saveur citronnée.</p>
                         <p><strong>Prix :</strong> 22,50 €/kg</p>
                         <hr>
                         <p>Notes : Doux et Fruité.</p>
+                        <button class="product_btn">Ajouter au Panier</button>
                     </aside>
             </section>
 

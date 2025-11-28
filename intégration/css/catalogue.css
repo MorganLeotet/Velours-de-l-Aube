@@ -1,5 +1,18 @@
+:root {
+    --color-fond: #F5E9D3;
+    --color-text: #4B2E1E;
+    --color-bouton: #C9A14A;
+    --color-bordure: #BFBFBF;
+}
+
+.title a {
+    text-decoration: none;
+    color: var(--color-fond);
+}
+
 #catalog h1 {
     font-size: 2rem;
+    font-weight: bold;
     margin: 2rem 2rem 2rem 2rem;
 }
 
@@ -31,8 +44,19 @@
 #catalog article div {
     padding: 2rem;
 }
-.price {
-    text-align: center;
+.text h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.text p {
+    font-style: italic;
+}
+.btn{
+    margin: 2rem 2rem 2rem 2rem;
+    background: var(--color-text);
+    border-radius: 10px;
+    width: 40%;
+    color: var(--color-bouton);
 }
 footer {
     display: grid;
