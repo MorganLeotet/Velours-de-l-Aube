@@ -1,0 +1,58 @@
+:root {
+    --color-fond: #F5E9D3;
+    --color-text: #4B2E1E;
+    --color-bouton: #C9A14A;
+    --color-bordure: #BFBFBF;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 70vh;
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.img {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    background: palevioletred;
+    margin: 1rem 2rem 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.product_img {
+    width: 110%;
+    height: 105%;
+    border-radius: 20px;
+}
+.description {
+    grid-column: 2 / 4;
+    grid-row: 2 / -1;
+    background: var(--color-text);
+    margin: 1rem 2rem 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: var(--color-bouton);
+}
+#title {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.resume {
+    margin-top: 2rem;
+}
+.note {
+    margin-top: 3rem;
+}
+.price {
+    margin-top: 5rem;
+    font-weight: bold;
+}

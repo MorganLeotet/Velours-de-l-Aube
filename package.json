@@ -1,0 +1,27 @@
+{
+  "name": "velours-de-l-aube",
+  "version": "1.0.0",
+  "description": "site fictif pour une entreprise de café",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganLeotet/Velours-de-l-Aube.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MorganLeotet/Velours-de-l-Aube/issues"
+  },
+  "homepage": "https://github.com/MorganLeotet/Velours-de-l-Aube#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}

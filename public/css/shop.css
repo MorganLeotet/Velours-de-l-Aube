@@ -1,0 +1,17 @@
+#picture {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 90%;
+    margin: 2rem 2rem 2rem 2rem;
+    position: relative;
+}
+#text {
+    position: absolute;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    top: 30%;
+}
